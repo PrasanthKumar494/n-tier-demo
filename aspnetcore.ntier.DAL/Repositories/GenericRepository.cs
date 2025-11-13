@@ -9,6 +9,7 @@ public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEnt
 {
     //This is dummy comment
     //Add a new comment
+    //Added comment in new branch3
     private readonly AspNetCoreNTierDbContext _aspNetCoreNTierDbContext;
     public GenericRepository(AspNetCoreNTierDbContext aspNetCoreNTierDbContext)
     {
