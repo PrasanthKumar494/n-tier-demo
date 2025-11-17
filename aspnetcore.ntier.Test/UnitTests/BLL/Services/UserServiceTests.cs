@@ -15,6 +15,7 @@ namespace aspnetcore.ntier.Test.UnitTests.BLL.Services;
 
 public class UserServiceTests
 {
+    //Added a new comment in the user service
     private readonly IUserService _userService;
     private readonly Mock<IUserRepository> _userRepository;
     private readonly Mock<ILogger<UserService>> _logger;
